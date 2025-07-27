@@ -1,0 +1,3 @@
+*.json
+/build123d_cheatsheet.egg-info
+/build123d-cheatsheet/__pycache__

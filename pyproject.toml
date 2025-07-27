@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "build123d-cheatsheet"
+version = "0.1.0"
+description = "A TUI for build123d projects using Textual and ocp_vscode"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+
+dependencies = [
+    "build123d",
+    "textual",
+    "ocp_vscode",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/abcq-tui"
+Repository = "https://github.com/yourusername/abcq-tui"
